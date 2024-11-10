@@ -1,0 +1,128 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+    justify-content: center; 
+    align-items: center;   
+}
+
+.social-icon {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 50%;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.social-icon i {
+    display: block;
+}
+
+/* Warna untuk masing-masing ikon */
+.instagram {
+    background-color: #e4405f;
+}
+.linkedin {
+    background-color: #0077b5;
+}
+.youtube {
+    background-color: #ff0000;
+}
+.tiktok {
+    background-color: #080808;
+}
+.github {
+    background-color: #333;
+}
+.whatsapp {
+    background-color: #37d651;
+}
+.telegram {
+    background-color: #0077b5;
+}
+.line {
+    background-color: #38df40;
+}
+
+/* Efek hover */
+.social-icon:hover {
+    transform: scale(1.2);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+    .social-icons {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+/* Header */
+header {
+    background-color: #235;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Bagian */
+.section {
+    padding: 50px 20px;
+    margin: auto;
+}
+
+#about, #academic, #organization, #volunteer, #certification, #contact, #message {
+    background-color: #ffffff;
+    border: 1px solid #080808;
+    justify-content: center;
+    padding: 40px;
+    border-radius: 2px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #190;
+    color: #fff;
+}
